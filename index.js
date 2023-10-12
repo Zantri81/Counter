@@ -1,25 +1,36 @@
  // this is the js
 
+let welcomeEL = document.getElementById("welcome-el")
+let saveEL = document.getElementById("save-el")
+let countEL = document.getElementById("count-el") //pass in arguments
+
+
+
+let name = "Tristan"
+let greeting = ", welcome Back!"
+
+welcomeEL.innerText = name + greeting
+welcomeEL.innerText += "👋" // equivalent to = welcomeEL.innerText = welcomeEL.innerText + "👋"
+
  // document.getElementById("count").innerText = 5
 
-let countEL = document.getElementById("count-el") //pass in arguments
+
 
 console.log(countEL)
 
 let count = 0
 
  function increment() {
-    count = count +1
+    count += 1 // equivalent to = count = count + 1
     countEL.innerText = count
  }
 
+
+
  function save() {
-        console.log(count)
+    let countStr = count + " - "
+    saveEL.textContent += countStr //textContent instead of ineerText for "saving" the space
+    console.log(countStr)
+
  }
 
-let welcomeEL = document.getElementById("welcome-el")
-
-let name = "Tristan"
-let greeting = ", welcome Back!"
-
-welcomeEL.innerText = name + greeting
