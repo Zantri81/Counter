@@ -16,3 +16,10 @@ let count = 0
  function save() {
         console.log(count)
  }
+
+let welcomeEL = document.getElementById("welcome-el")
+
+let name = "Tristan"
+let greeting = ", welcome Back!"
+
+welcomeEL.innerText = name + greeting
