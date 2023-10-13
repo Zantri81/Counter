@@ -1,9 +1,10 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("image/O6H4HEZCJBDADIZ2ZVD2OHJDUM.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
 h1 {

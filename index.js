@@ -7,7 +7,7 @@ let countEL = document.getElementById("count-el") //pass in arguments
 
 
 let name = "Tristan"
-let greeting = ", welcome Back!"
+let greeting = ", welcome back comrade!"
 
 welcomeEL.innerText = name + greeting
 welcomeEL.innerText += "👋" // equivalent to = welcomeEL.innerText = welcomeEL.innerText + "👋"
