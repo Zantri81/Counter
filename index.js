@@ -31,6 +31,8 @@ let count = 0
     let countStr = count + " - "
     saveEL.textContent += countStr //textContent instead of ineerText for "saving" the space
     console.log(countStr)
+    countEL.textContent = 0
+    count = 0
 
  }
 
